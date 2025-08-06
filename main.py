@@ -4,12 +4,10 @@ import pandas as pd
 import numpy as np
 import os
 
-base_path = "C:/Users/siddh/Desktop"
-pipe = pickle.load(open(os.path.join(base_path, "finalized_model.pickle"), 'rb'))
-scaler = pickle.load(open(os.path.join(base_path, "scaler_model.pickle"), "rb"))
 
-# pipe = pickle.load(open("C:/Users/siddh/Desktop/scaler_model.pickle/finalized_model.pickle", 'rb'))
-# scaler = pickle.load(open("C:/Users/siddh/Desktop/scaler_model.pickle/scaler_model.pickle", "rb"))
+
+pipe = pickle.load(open("C:/Users/siddh/Desktop/scaler_model.pickle/finalized_model.pickle", 'rb'))
+scaler = pickle.load(open("C:/Users/siddh/Desktop/scaler_model.pickle/scaler_model.pickle", "rb"))
 
 # Define the main function for the Streamlit app
 def main():
@@ -62,3 +60,4 @@ def main():
 # Entry point to run the Streamlit app
 if __name__ == '__main__':
     main()
+
