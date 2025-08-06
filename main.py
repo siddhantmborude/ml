@@ -14,7 +14,7 @@ def main():
     st.title("University Admission Prediction")
 
     # Display an image in the center
-    st.image("D:\D-Pictures\Wallpaper\wp12401548-game-of-thrones-4k-pc-wallpapers.jpg")
+    st.image("wp12401548-game-of-thrones-4k-pc-wallpapers.jpg")
 
 
     # Collect user inputs using interactive widgets
@@ -60,5 +60,6 @@ def main():
 # Entry point to run the Streamlit app
 if __name__ == '__main__':
     main()
+
 
 
