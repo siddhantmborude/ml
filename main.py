@@ -6,8 +6,8 @@ import os
 
 
 
-pipe = pickle.load(open("C:/Users/siddh/Desktop/scaler_model.pickle/finalized_model.pickle", 'rb'))
-scaler = pickle.load(open("C:/Users/siddh/Desktop/scaler_model.pickle/scaler_model.pickle", "rb"))
+pipe = pickle.load(open("finalized_model.pickle", 'rb'))
+scaler = pickle.load(open("scaler_model.pickle", "rb"))
 
 # Define the main function for the Streamlit app
 def main():
@@ -60,4 +60,5 @@ def main():
 # Entry point to run the Streamlit app
 if __name__ == '__main__':
     main()
+
 
